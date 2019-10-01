@@ -15,7 +15,7 @@ public class FirstSpringBootApplication {
 //		Personne p = ctx.getBean(Personne.class);
 //		Personne p2 = ctx.getBean(Personne.class);
 		Societe s=ctx.getBean(Societe.class);
-		s.modifierInfoDirigeant("Mehdi","lmanjra");
+		s.modifierInfoDirigeant("yassin","lmanjra");
 		s.setStatus("Directeur d'activité");
 		s.info();
 	}
